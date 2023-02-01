@@ -8,9 +8,18 @@
 body{
     background-image: url(imagens/fundo-madeira.jpg);
 }
-ul>li{
+nav{
     text-align: right;
+    height: 100px;
 }
 #img{
     text-align: center;
+}
+.logo{
+    width: 80px;
+    border-radius: 50px;
+}
+iframe{
+    width: 415px;
+    height: 500px;
 }
