@@ -6,7 +6,7 @@
 }
 
 body, html{
-    width: 100vw;
+    width: 98vw;
     height: 100vh;
 }
 body{
@@ -16,15 +16,10 @@ body{
     background-attachment: fixed;
 }
 main{
-    height: 100vw;
+    height: 98vw;
     position: relative;
 }
-nav{
-    text-align: right;
-    height: 100px;
-    padding-right: 30px;
-}
-article{
+section#tela{
     background-image: url(imagens/frame-iphone.png);
     background-repeat: no-repeat;
     width: 311px;
@@ -34,14 +29,26 @@ article{
     left: 50%;
     transform: translate(-50%, -50%);
 }
-.logo{
-    width: 50px;
-    border-radius: 50px;
-}
 iframe{
     position: relative;
     top: 80px;
     left: 22px;
     width: 269px;
     height: 471px;
+}
+section#rede-social{
+    text-align: right;
+}
+section#rede-social>a>img {
+    width: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.404);
+    box-sizing: border-box;
+}
+section#rede-social>a>img:hover{
+    border: 2px solid rgba(255, 255, 255, 0.637);
+    transform: translate(-3px, -3px);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.479);
+    transition: transform 0.1s;
 }
