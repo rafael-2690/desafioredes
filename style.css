@@ -8,3 +8,9 @@
 body{
     background-image: url(imagens/fundo-madeira.jpg);
 }
+ul>li{
+    text-align: right;
+}
+#img{
+    text-align: center;
+}
